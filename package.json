@@ -20,12 +20,6 @@
     }
   },
   "dependencies": {
-    "@material-ui/core": "^3.9",
-    "@material-ui/icons": "^3.0",
-    "autosuggest-highlight": "^3.1",
-    "downshift": "^3.2",
-    "match-sorter": "^2.3",
-    "mdi-material-ui": "^5.9",
     "react": "^16.8",
     "react-dom": "^16.8",
     "source-map-support": "^0.5",
