@@ -8,6 +8,14 @@
     "dist": "yarn compile && electron-builder",
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
+  "build": {
+    "mac": {
+      "compression": "maximum"
+    },
+    "win": {
+      "compression": "maximum"
+    }
+  },
   "electronWebpack": {
     "title": true,
     "main": {
